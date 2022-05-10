@@ -1,22 +1,29 @@
 .header {
+  background-color: red;
 }
 
 .title {
+  background-color: green;
 }
 
 .logo1 {
+  background-color: darkgray;
 }
 
 .logo2 {
+  background-color: gray;
 }
 
 .bookmark {
+  background-color: blue;
 }
 
 .memeber {
+  background-color: violet;
 }
 
 .body {
+  background-color: yellow;
 }
 
 .filter {
