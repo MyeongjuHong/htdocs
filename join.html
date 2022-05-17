@@ -13,12 +13,20 @@
         <div class="logo1">jjajipja</div>
         <div class="logo2">영어 모의고사 필터링 서비스</div>
       </span>
-      <span class="member">
-        <a href="#" onclick="location.href='join.html'">회원가입</a>
-      </span>
+      <span class="member"> </span>
     </span>
     <div class="body">
-      <div class="box"></div>
+      <div class="box">
+        <form name="login" method="post" action="join_receiver.php">
+          <input type="text" name="id" value="" placeholder="아이디" /><br />
+          <input type="password" name="pwd" value="" placeholder="비밀번호" /><br />
+          <input type="password" name="pwdC" value="" placeholder="비밀번호 확인" /><br />
+          <input type="submit" value="회원가입" />
+        </form>
+        <div class="member">
+          <a href="#" onclick="location.href='join.html'">회원가입</a>
+        </div>
+      </div>
     </div>
   </body>
 </html>
