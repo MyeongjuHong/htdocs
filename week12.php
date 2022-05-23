@@ -19,9 +19,5 @@
         }
 
     ?>
-
-    test
-    test2
-    
 </body>
 </html>
