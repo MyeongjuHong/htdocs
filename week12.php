@@ -29,6 +29,23 @@
             echo "쿠키 생성 오류";
         }
 
+
+        //쿠키 삭제 예제
+
+        setcookie("userid", "", time()-3600);
+        setcookie("username", "", time()-360);
+
+        echo "userid와 username cookie 삭제 완료<br>";
+
+        if(isset($_COOKIE["userid"]) && isset($_COOKIE["username"])) {
+            $userid = $_COOKIE["userid"];
+            $username = $_COOKIE["username"];
+            echo "userid cookie value: ".$userid."<br>";
+            echo "username cookie value: ".$username."<br>";
+        } else {
+            echo "쿠키 없음";
+        }
+
     ?>
 </body>
 </html>
