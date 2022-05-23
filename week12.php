@@ -18,6 +18,8 @@
             echo "쿠키 username은 1시간 지속<br>s";
         }
 
+        test
+
     ?>
 </body>
 </html>
