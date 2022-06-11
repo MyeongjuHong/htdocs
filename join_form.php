@@ -8,6 +8,7 @@
     <title>join</title>
   </head>
   <body>
+    <script type="text/javascript" src="jjajipja.js"></script>
     <span class="header">
       <span class="title" onclick="location.href='index.html'">
         <div class="logo1">jjajipja</div>
@@ -17,11 +18,12 @@
     </span>
     <div class="body">
       <div class="box">
-        <form name="join" method="post" action="join_insert.php">
-          <input type="text" name="id" value="" placeholder="아이디" />
-          <a href='#'><img src="./img/J_confirm.png" onclick="check_id()" clas="button"/></a><br />
-          <input type="password" name="pwd" value="" placeholder="비밀번호" /><br />
-          <input type="password" name="pwdC" value="" placeholder="비밀번호 확인" /><br />
+        <form name="join_form" method="post" action="join_insert.php">
+          <input type="text" name="name" placeholder="이름" /><br/>
+          <input type="text" name="id" placeholder="아이디" />
+          <a href='#'><img src="./img/J_confirm.png" onclick="test()" clas="button"/></a><br />
+          <input type="password" name="pwd" placeholder="비밀번호" /><br />
+          <input type="password" name="pwdC" placeholder="비밀번호 확인" /><br />
           <img src="./img/J_join.png" onclick="check_input()" class="button"/>
         </form>
         <div class="member">
