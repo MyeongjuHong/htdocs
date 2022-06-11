@@ -34,15 +34,7 @@ function check_input() {
   document.join_form.submit();
 }
 
+// join_form id confirm
 function check_id() {
   window.open("join_check.php?id=" + document.join_form.id.value, "IDcheck", "left=700, top=300, width=350, height=200, scrollbars=no, resizable=yes");
-}
-
-function test() {
-  var name = document.test.id.value;
-  if (!name) {
-    alert("이상!");
-    document.test.id.focus();
-    return;
-  }
 }
