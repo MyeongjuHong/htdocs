@@ -21,7 +21,7 @@
         <form name="join_form" method="post" action="join_insert.php">
           <input type="text" name="name" placeholder="이름" /><br/>
           <input type="text" name="id" placeholder="아이디" />
-          <a href='#'><img src="./img/J_confirm.png" onclick="test()" clas="button"/></a><br />
+          <img src="./img/J_confirm.png" onclick="check_id()" clas="button"/><br />
           <input type="password" name="pwd" placeholder="비밀번호" /><br />
           <input type="password" name="pwdC" placeholder="비밀번호 확인" /><br />
           <img src="./img/J_join.png" onclick="check_input()" class="button"/>
