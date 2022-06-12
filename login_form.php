@@ -8,6 +8,7 @@
     <title>login</title>
   </head>
   <body>
+    <script type="text/javascript" src="login.js"></script>
     <div class="header">
       <div class="title" onclick="location.href='index.html'">
         <div class="logo1">jjajipja</div>
@@ -16,10 +17,10 @@
     </div>
     <div class="body">
       <div class="box">
-        <form name="login" method="post" action="login_receiver.php">
-          <input type="text" name="id" value="" placeholder="아이디" /><br />
-          <input type="password" name="pwd" value="" placeholder="비밀번호" /><br />
-          <input type="submit" value="로그인" />
+        <form name="login_form" method="post" action="login_check.php">
+          <input type="text" name="id" placeholder="아이디" /><br />
+          <input type="password" name="pwd" placeholder="비밀번호" /><br />
+          <img src="./img/J_login.png" onclick="check_input()"/>
         </form>
         <div class="member">
           <a href="#" onclick="location.href='join_form.php'">회원가입</a>

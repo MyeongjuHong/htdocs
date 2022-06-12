@@ -8,7 +8,7 @@
     <title>join</title>
   </head>
   <body>
-    <script type="text/javascript" src="jjajipja.js"></script>
+    <script type="text/javascript" src="join.js"></script>
     <span class="header">
       <span class="title" onclick="location.href='index.html'">
         <div class="logo1">jjajipja</div>
