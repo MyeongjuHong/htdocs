@@ -49,7 +49,7 @@
                 echo("
                     <script>
                         window.alert('로그인 완료!');
-                        location.href = 'index.html';
+                        location.href = 'index.php';
                     </script>
                 ");
             }
