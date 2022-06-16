@@ -1,31 +1,157 @@
-.header {
-  background-color: red;
+:root {
+  max-width: 800px;
+  min-width: 400px;
+  margin: 0 auto;
+}
+
+h4 {
+  text-align: center;
+  padding-left: 10%;
+}
+
+h2 {
+  padding-left: 25%;
+}
+
+a {
+  text-decoration: none;
+  color: green;
+  font-weight: bold;
+}
+
+input {
+  margin: 5px;
+}
+
+/* index.php */
+
+.button {
+  height: 40px;
+  margin-top: 10px;
+  margin-left: 50px;
+}
+
+.button_j {
+  height: 25px;
+}
+
+.line_match {
+  display: flex;
+  align-items: center;
+}
+
+/* header.php */
+
+.header_logic {
+  margin-bottom: 5%;
 }
 
 .title {
-  background-color: green;
+  color: green;
 }
 
-.logo1 {
-  background-color: darkgray;
+.logo {
+  width: 200px;
+  margin-top: 2%;
 }
 
-.logo2 {
-  background-color: gray;
+.user {
+  text-align: right;
 }
 
-.bookmark {
-  background-color: blue;
-}
-
-.memeber {
-  background-color: violet;
-}
-
-.body {
-  background-color: pink;
-}
+/* test.php */
 
 .filter {
-  background-color: yellow;
+  border-top: 3px dotted green;
+  border-bottom: 3px dotted green;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-right: 10%;
+  padding-left: 10%;
+}
+
+.item_around {
+  justify-content: space-around;
+}
+
+/* test_check.php */
+
+.paper {
+  margin-top: 5%;
+  border-top: 3px dotted green;
+}
+
+.test_info {
+  column-count: 2;
+  -webkit-column-fill: auto;
+  -moz-column-fill: auto;
+  column-fill: auto;
+  column-gap: 32px;
+  column-rule: 1px solid gray;
+  min-height: 450px;
+}
+
+/* join/login */
+
+.box {
+  border: 3px dotted green;
+  border-radius: 5px;
+  padding: 5%;
+  padding-left: 15%;
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 10%;
+}
+
+.form_join {
+  width: 200px;
+  margin-left: 10px;
+}
+
+.member {
+  padding-left: 32%;
+}
+
+/* admin_form.php */
+
+h3 {
+  color: green;
+}
+
+textarea {
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+th {
+  border-top: 3px dotted green;
+}
+
+td {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border-top: 2px dotted green;
+}
+
+.admin_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.table_title {
+  font-weight: bold;
+  color: green;
+}
+
+.table_bottom {
+  border-bottom: 2px dotted green;
+}
+
+.save_button {
+  height: 40px;
+  margin: 1%;
+  margin-left: 45%;
 }

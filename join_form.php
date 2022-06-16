@@ -9,19 +9,18 @@
   </head>
   <body>
     <script type="text/javascript" src="join.js"></script>
-    <span class="header">
-      <span class="title" onclick="location.href='index.html'">
-        <div class="logo1">jjajipja</div>
-        <div class="logo2">영어 모의고사 필터링 서비스</div>
-      </span>
-      <span class="member"> </span>
-    </span>
+    <div class="header">
+      <img src="./img/J_logo.png" class="logo" onclick="location.href='index.php'"/>
+    </div>
     <div class="body">
       <div class="box">
-        <form name="join_form" method="post" action="join_insert.php">
+        <h2>JOIN</h2>
+        <form name="join_form" method="post" action="join_insert.php" class="form">
           <input type="text" name="name" placeholder="이름" /><br/>
-          <input type="text" name="id" placeholder="아이디" />
-          <img src="./img/J_confirm.png" onclick="check_id()" clas="button"/><br />
+          <div class="line_match">
+            <input type="text" name="id" placeholder="아이디" />
+            <img src="./img/J_confirm.png" onclick="check_id()" class="button_j"/><br />
+          </div>
           <input type="password" name="pwd" placeholder="비밀번호" /><br />
           <input type="password" name="pwdC" placeholder="비밀번호 확인" /><br />
           <img src="./img/J_join.png" onclick="check_input()" class="button"/>

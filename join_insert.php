@@ -13,6 +13,7 @@
 
     echo "
         <script>
+            window.alert('회원가입이 완료되었습니다!');
             location.href = 'index.php';
         </script>
     ";
